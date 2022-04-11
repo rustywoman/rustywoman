@@ -1,0 +1,10 @@
+[user]
+  name = rustywoman
+  email = rustywoman@gmail.com
+[alias]
+  glog = log --graph --date=iso --pretty='[%ad]%C(auto) %h%d %Cgreen%an%Creset : %s'
+  ddd = log --pretty=format:"%C(auto)%h%Cred%d\\ %Creset%s%Cgreen\\ [%cn]" --decorate --numstat
+  find = "!git ls-files | grep -i"
+  alias = !git config --get-regexp '^alias\\.' | sed 's/alias\\.\\([^ ]*\\) \\(.*\\)/\\1\\\t => \\2/' | sort
+[core]
+  editor = vi
