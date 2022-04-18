@@ -32,7 +32,9 @@ sudo apt-get install \
      curl \
      gnupg \
      lsb-release \
-     make
+     make \
+     language-pack-ja
+sudo update-locale LANG=ja_JP.UTF8
 # Docker
 curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
 sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu focal stable"
