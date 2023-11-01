@@ -1,4 +1,8 @@
+<samp>
+
 ### A b o u t
+
+</samp>
 
 ---
 
@@ -12,62 +16,16 @@ If you are interested, please try to analyze the JWT above.
 
 <br />
 
-#### P r e p a r a t i o n
+<samp>
 
----
+### P o r t f o l i o
 
-**OS : Ubuntu ( >= 18.04 )**
+</samp>
 
-[.bashrc](_assets/.bashrc)
-[.bash_profile](_assets/.bash_profile)
-[.gitconfig](_assets/.gitconfig)
-[.tmux.conf](_assets/.tmux.conf)
-
-```sh
-# Common
-sudo apt-get update
-sudo apt-get install \
-     apt-transport-https \
-     ca-certificates \
-     curl \
-     gnupg \
-     lsb-release \
-     make \
-     language-pack-ja
-sudo update-locale LANG=ja_JP.UTF8
-# Docker
-curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
-sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu focal stable"
-sudo apt update
-sudo apt install docker-ce
-# Docker-compose ( Latest Version ::: https://docs.docker.com/compose/install/ )
-sudo curl -L "https://github.com/docker/compose/releases/download/1.29.2/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
-sudo chmod +x /usr/local/bin/docker-compose
-# Fish(er)
-sudo apt-add-repository ppa:fish-shell/release-2
-sudo apt-get update
-sudo apt-get install -y fish
-curl https://git.io/fisher --create-dirs -sLo ~/.config/fish/functions/fisher.fish
-chsh
-# Password:
-# Changing the login shell for sugi
-# Enter the new value, or press ENTER for the default
-#         Login Shell [/bin/bash]: /usr/bin/fish
-fish install oh-my-fish/theme-bobthefish
-string trim '
-set -g theme_newline_cursor yes
-set -g theme_display_git_master_branch yes
-set -g theme_color_scheme dracula
-set -g theme_powerline_fonts yes
-set -g theme_display_date no
-set -g theme_display_cmd_duration no
-set -gx LC_ALL en_US.UTF-8
-' >> ~/.config/fish/config.fish
-# Font for fish (Powerline)
-sudo apt install golang-go
-go get -u github.com/justjanne/powerline-go
-```
-
----
+<p align="center">
+  <a href="https://ilamisocofy.me/">
+    <img src="_assets/ilamisocofy_logo.svg" alt="portfolio" width="180" height="180">
+  </a>
+</p>
 
 <br />
