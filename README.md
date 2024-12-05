@@ -12,7 +12,7 @@ If you are interested, please try to analyze the JWT above in [jwt.io](https://j
 
 <p align="center">
   <a href="https://ilamisocofy.me/">
-    <img src="_assets/ilamisocofy_logo.svg" alt="ilamisocofy" width="180" height="180">
+    <img src="_assets/ilamisocofy_logo.svg" alt="ilamisocofy" width="90" height="90">
   </a>
 </p>
 
