@@ -9,11 +9,3 @@
 If you are interested, please try to analyze the JWT above in [jwt.io](https://jwt.io/).
 
 <br />
-
-<p align="center">
-  <a href="https://ilamisocofy.me/">
-    <img src="_assets/ilamisocofy_logo.svg" alt="ilamisocofy" width="180" height="180">
-  </a>
-</p>
-
-<br />
